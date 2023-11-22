@@ -1,0 +1,149 @@
+body {
+    background-color: lightblue;
+}
+
+#navbar {
+    border: 1px, solid, black;
+    background-color: blue;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+#sx {
+    border: 1px, solid, white;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dx {
+    border: 1px, solid, white;
+    display: flex;
+    justify-content: right;
+}
+
+img {
+    width: 10%;
+}
+
+#header {
+    border: 1px, solid, white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    margin-top: 5vh;
+    height: 40vh;
+}
+
+#rigaquad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    font-size: 30px;
+    color: darkblue;
+}
+
+.quadrato {
+    border: 1px, solid, white;
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+}
+
+.quadrato > p {
+    font-size: 3vh;
+    font-style: italic;
+    color: black;
+}
+
+#rigacont {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 30px;
+    color: darkblue;
+    background-color: white;
+}
+
+.contenuti {
+    border: 1px, solid, white;
+    width: 70%;
+    height: 20vh;
+    background-color: white;
+    margin-bottom: 5vh;
+}
+
+.contenuti > p {
+    font-size: 3vh;
+    font-style: italic;
+    color: black;
+}
+
+#navigazione {
+    background-color: #E8E8E8;
+    color: black;
+    width: 35%;
+    height: 43vh;
+    text-align: center;
+    align-items: center;
+    margin-right: 8vh;
+}
+
+#navigation {
+    background-color: white;
+    color: darkblue;
+}
+
+.menu {
+    margin-bottom: 5vh;
+    font-size: 4vh;
+}
+
+#riquadrigallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#primo, #secondo, #terzo, #quarto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 30vh;
+    border: 1px, solid, white;
+    font-size: 7vh;
+}
+
+#primo {
+    background-color: red;
+}
+
+#secondo {
+    background-color: blue;
+}
+
+#terzo {
+    background-color: yellow;
+}
+
+#quarto {
+    background-color: green;
+}
+
+
+
+#gallery {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    font-style: italic;
+    color: black;
+}
